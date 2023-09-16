@@ -1,5 +1,6 @@
-# AWS As Provider
+# Configure the AWS Provider
 provider "aws" {
   region     = "us-west-1"
-  profile    = "terraform"
+  access_key = "abc"
+  secret_key = "xyz"
 }
